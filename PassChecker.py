@@ -1,8 +1,9 @@
+checkpass = input('Enter your Password (! to exit) :')
 for i in range(0, 8):
     fname = (f'{i}.prik')
     fhandle = open(fname)
 
-    checkpass = input('Enter your Password (! to exit) :')
+    
 
     if checkpass == '!':
         exit(0)
