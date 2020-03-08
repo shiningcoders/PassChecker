@@ -11,7 +11,7 @@ for i in range(0, 8):
         if past == checkpass:
             print(past, 'isn\'t  hard to brute. ')
             count = count + 1
-            break
+            exit(0)
         else:
             print(past)
 
